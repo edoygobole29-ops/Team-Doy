@@ -1,5 +1,4 @@
 # Diagram 10: UML Deployment (Provisional)
-
 **Type:** UML deployment · **Scope:** nodes, execution environments, and artifacts for the MVP. **Provisional:** the hosting provider is not chosen yet, so generic node names are used.
 
 ```mermaid
