@@ -1,10 +1,9 @@
-# Diagram 11: Entity Relationship Diagram (draft)
-
+# Diagram 11: Entity Relationship Diagram 
 **Type:** ERD, crow's-foot notation · **Scope:** one table per stored class, plus join tables for the many-to-many associations. It is derived from `class.md`.
 
 ```mermaid
 ---
-title: "ERD (draft): Campus Meal Guide database"
+title: "ERD : Campus Meal Guide database"
 ---
 erDiagram
     stalls {
