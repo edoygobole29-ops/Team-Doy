@@ -54,14 +54,12 @@ classDiagram
         +DateTime chosenAt
     }
     class MealStatus {
-        <<enumeration>>
         DRAFT
         VERIFIED
         FLAGGED
         ARCHIVED
     }
     class ReportStatus {
-        <<enumeration>>
         OPEN
         RESOLVED
         DISMISSED
