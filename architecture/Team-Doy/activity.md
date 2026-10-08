@@ -6,6 +6,7 @@
 %%{init: {"flowchart": {"curve": "step", "nodeSpacing": 40, "rankSpacing": 45, "padding": 14}, "themeVariables": {"edgeLabelBackground": "#656161", "fontSize": "12px", "lineColor": "#040404"}}}%%
 flowchart TB
     ttl["<b>UML Activity diagram:<br/>from verified listing to student choice</b>"]:::title
+
     subgraph LA["<font color=#000000><b>ADMIN</b></font>"]
         direction TB
         tA[" "]:::ghost
@@ -18,6 +19,7 @@ flowchart TB
         d4{"Report valid?"}:::dec
         bA[" "]:::ghost
     end
+
     subgraph LS["<font color=#000000><b>SYSTEM</b></font>"]
         direction TB
         tS[" "]:::ghost
@@ -31,6 +33,7 @@ flowchart TB
         e2((( ))):::stop
         bS[" "]:::ghost
     end
+
     subgraph LT["<font color=#000000><b>STUDENT</b></font>"]
         direction TB
         tT[" "]:::ghost
@@ -43,6 +46,9 @@ flowchart TB
         t5("Submit a report"):::act
         bT[" "]:::ghost
     end
+
+    ttl ~~~ LS
+    
     a0 --> a1 --> a2 --> s1 --> d1
     d1 -->|"[not confirmed]"| a1
     d1 -->|"[confirmed]"| a3 --> s2 --> t1
@@ -54,7 +60,6 @@ flowchart TB
     d4 -->|"[valid]"| a2
     d4 -->|"[not valid]"| s7 --> e2
 
-    ttl ~~~ tS
     tA ~~~ a0
     tS ~~~ a0
     tT ~~~ a0
@@ -72,7 +77,6 @@ flowchart TB
     style LS fill:#fff,stroke:#000,stroke-width:1px
     style LA fill:#fff,stroke:#000,stroke-width:1px
     linkStyle default stroke:#000,stroke-width:1px
-    linkStyle 24,25,26,27,28,29,30 stroke:none,fill:none
 ```
 
 ## Key
