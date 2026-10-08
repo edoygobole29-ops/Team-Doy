@@ -7,7 +7,7 @@ Architectural views for the MVP of the *Affordable and Nutritious Meals for Stud
 
 | # | Diagram | File | View | Owner | Reviewer |
 |---|---|---|---|---|---|
-| 1 | C4 system context | [context.md](context.md) | Structure | _Damair_ | _Gelilio_ |
+| 1 | C4 system context | [context.md](context.md) | Structure | _Damiar_ | _Gelilio_ |
 | 2 | C4 container | [containers.md](containers.md) | Structure | _Gelilio_ | _Damiar_ |
 | 3 | Use case | [use-cases.md](use-cases.md) | Scenarios | _Benavides_ | _Gobole_ |
 | 4 | Activity | [activity.md](activity.md) | Process | _Gobole_ | _Damiar_ |
