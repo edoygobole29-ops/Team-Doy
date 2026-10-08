@@ -13,8 +13,8 @@ config:
     padding: 18
 ---
 flowchart LR
-    student["<b>Student</b><br/><br/>Guest, no login"]:::person
-    admin["<b>Admin (Verifier)<br/><br/>Signs in with Google"]:::person
+    student["<b>Student</b><br/>Guest, no login"]:::person
+    admin["<b>Admin (Verifier)<br/>Signs in with Google"]:::person
 
     subgraph boundary["Campus Meal Guide [Software System]"]
         direction LR
