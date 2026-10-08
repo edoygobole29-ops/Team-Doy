@@ -4,7 +4,7 @@
 
 ```mermaid
 ---
-title: "UML Use Case diagram: Campus Meal Guide (MVP)"
+title: "UML Use Case Diagram: Campus Meal Guide (MVP)"
 config:
   flowchart:
     wrappingWidth: 340
