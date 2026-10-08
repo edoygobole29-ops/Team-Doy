@@ -4,7 +4,7 @@
 
 ```mermaid
 ---
-title: "UML Package diagram: source folder structure and allowed dependencies"
+title: "UML Package diagram: Source folder structure and allowed dependencies"
 config:
   flowchart:
     wrappingWidth: 340
