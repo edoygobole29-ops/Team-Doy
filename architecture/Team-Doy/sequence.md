@@ -4,7 +4,7 @@
 
 ```mermaid
 ---
-title: "UML Sequence diagram: Admin signs in and verifies a meal listing"
+title: "UML Sequence Diagram: Admin signs in and verifies a meal listing"
 ---
 sequenceDiagram
     autonumber
