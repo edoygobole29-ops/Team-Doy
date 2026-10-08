@@ -4,7 +4,7 @@
 
 ```mermaid
 ---
-title: "UML State Machine diagram: Meal lifecycle"
+title: "UML State Machine Diagram: Meal lifecycle"
 ---
 stateDiagram-v2
     direction TB
